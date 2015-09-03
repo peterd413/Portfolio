@@ -27,12 +27,14 @@
 
 .Title {
     width: 50%;
+    margin-top: 20px;
 }
 h1 {
     font-weight: 100;
     font-size : 48px;
     float : right;
     color : #747704;
+    margin : 0;
 } 
 
 h2 {
@@ -40,31 +42,37 @@ h2 {
     font-size : 24px;
     float : right;
     color : #747704;
+    margin : 0;
 } 
 
 h3 {
-    margin-left : 20px;
-    font-size : 36px;
+    margin-left : 10px;
+    margin-bottom : 10px;
+    font-size : 30px;
     font-weight: normal;
     color : #BCBBBB;
 
 }
 
 h4 {
+    font-size : 30px;
+    font-weight: normal;
     color : #747704;
-    justify-content : center;
 }
 .udacity-logo {
     max-height : 100%;
     max-width : 50%;
-    width : 50%;
+    width : 30%;
 }
 .large-image {
     margin : 30px;
-    /*float : ;*/
+    width : 100%;
 }
 
-
+.small-image {
+    margin : 10px;
+    width : 80%;
+}
 
 .col-1 {
     width: 8.33%;
