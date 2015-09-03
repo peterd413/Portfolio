@@ -10,7 +10,7 @@
 }
 
 * {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
 }
 
 .grid {
@@ -55,9 +55,10 @@ h3 {
 }
 
 h4 {
+    margin-top : 10px;
     font-size : 30px;
     font-weight: normal;
-    color : #747704;
+    color : #747704;d
 }
 .udacity-logo {
     max-height : 100%;
