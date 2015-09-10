@@ -2,38 +2,72 @@
 <html>
 <head>
   <title>My Portfolio</title>
+  <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
-  <link href='http:/fonts.googleapis.com/css?family=Lato' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <div class="grid">
-    <div class="row">
-      <div class="col-6">
-        <img class="udacity-logo" src="http://cameronwp.github.io/cpcom/static/udacity_logo.svg" alt="Udacity Logo">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="img-responsive" src="images/me_.jpg" alt="Udacity Logo">
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1> Peter DeCarolis</h1>
+          <h4> FRONT-END DEVELOPER </h4>
+        </div>
       </div>
-      <div class="Title">
-        <h1> PETER DECAROLIS</h1>
-        <h2> FRONT-END DEVELOPER </h2>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <img class="large-image" src="http://www.sundayriver.com/xml/Images/Headers/hdr_themountain.jpg" alt="Large Image">
-    </div>
-    <h3> Featured Work</h3>
-    <div class="row">
-      <div class="col-4">
-        <img class="small-image" src="https://sp.yimg.com/ib/th?id=JN.myopQ%2bQnnrtqqlC8QBrWQQ&pid=15.1&rs=1&c=1&qlt=95&w=122&h=88" alt="Large Image"> 
-        <h4> APPIFY </h4>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive center-block" src="images/hdr_themountain.jpg" alt="Large Image">
+        </div>
       </div>
-      <div class="col-4">
-        <img class="small-image" src="https://sp.yimg.com/ib/th?id=JN.myopQ%2bQnnrtqqlC8QBrWQQ&pid=15.1&rs=1&c=1&qlt=95&w=122&h=88" alt="Large Image"> 
-        <h4>SUNFLOWER </h4>
+      <div class="row">
+        <div class="col-md-12">
+          <h2> Featured Work</h2>
+        </div>
       </div>
-      <div class="col-4">
-        <img class="small-image" src="https://sp.yimg.com/ib/th?id=JN.myopQ%2bQnnrtqqlC8QBrWQQ&pid=15.1&rs=1&c=1&qlt=95&w=122&h=88" alt="Large Image"> 
-        <h4>BOKEH </h4>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img class="img-responsive center-block" data-toggle="modal" data-target="#project1" src="images/th.jpg" alt="Under Construction Image"> 
+          <h3> APPIFY </h3>
+          <p> https://github.com/peterd413/Portfolio </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img class="img-responsive center-block" src="images/th.jpg" alt="Under Construction Image"> 
+          <h3>SUNFLOWER </h3>
+        </div>
+        <div class="col-md-4 text-center">
+          <img class="img-responsive center-block" src="images/th.jpg" alt="Under Construction Image"> 
+          <h3>BOKEH </h3>
+        </div>
+     </div>
+  </div>
+
+
+  <!-- Modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">APPIFY</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/th.jpg" alt="Project1 Image">
+        This was my first project in this class. I learned a lot about HTML and CSS.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
+</div>
 </body>
 </html>
