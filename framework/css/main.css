@@ -1,6 +1,8 @@
+/*
 * {
     border: 1px solid red !important;
 }
+*/
 
 * {
     -webkit-box-sizing: border-box;
@@ -12,14 +14,14 @@
 body {
     font-family: 'Lato', sans-serif;
     color : #676858;
+    background-color: lightblue;
     font-weight: 300;
 }
 
-.udacity-logo {
-    width : 50%;
+img {
+    max-width : 100%;
 }
 
-h1 {
     font-weight: 100;
     font-size : 60px;
     color : #747704;
@@ -35,7 +37,7 @@ h2 {
 h3 {
     font-size : 30px;
     font-weight: normal;
-    color : #747704;d
+    color : #747704;
 }
 
 h4 {
